@@ -21,8 +21,10 @@ public class Dogs {
         weight--;
     }
     public void getStatus(){
-        if (weight < minWeight){
+        if (weight <= minWeight){
             System.out.println("dogs death");
+        }else{
+            System.out.println("test");
         }
         if(weight > maxWeigth){
             System.out.println("dogs BUM");
